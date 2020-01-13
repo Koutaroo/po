@@ -1,4 +1,8 @@
 /*#container_all{max-width: 600px;}*/
+* {
+  -webkit-appearance: none;
+}
+
 input[type="submit"],
 input[type="button"] {
   border-radius: 0;
