@@ -30,7 +30,7 @@ body{
 
 /*--ボタン--*/
 .select FORM{
-    margin-left: -2%;
+    margin-left: -4%;
     margin-top: 4%;
     position: fixed; 
     float: left;
@@ -43,14 +43,14 @@ body{
     align-items: flex-start;
     -webkit-flex-direction: column;
     flex-direction: column;
-    height: 30%;
+    height: 34%;
     background: #403984;
 }
 
 .select FORM input{
     float: left;
     font-size: 50%;
-    padding: 13% 0 13% 20%;
+    padding: 12% 0 12% 20%;
     border-radius: 10%;
     border: none;
     outline: none;
