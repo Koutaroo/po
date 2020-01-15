@@ -1,7 +1,8 @@
 /*#container_all{max-width: 600px;}*/
 * {
-  -webkit-appearance: none;
-  overflow: hidden;
+    -webkit-appearance: none;
+    overflow: hidden;
+    text-align: center;
 }
 
 
@@ -12,125 +13,38 @@ html {
     padding: 0%;
     margin: auto;
     background-color: #cecece;
-
     background-size: contain;
-}
-.header{
-    margin: 0%;
-    padding: 0%;
-    width: 100%
-        
-}
-body{
-/*    background-color:#DD9F3E;*/
-    margin: auto;
-    background-size: auto;
-}
-
-
-
-/*--ボタン--*/
-.select FORM{
-    margin-left: -16px;
-    margin-top: 30px;
-    padding: 8px 0;
-    position: fixed; 
-    float: left;
-    width: 91px;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-    -webkit-align-items: flex-start;
-    align-items: flex-start;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    height: 240px;
-    background: #403984;
-    border-radius: 7px;
-}
-
-.select FORM input{
-    float: left;
-    font-size: 12.2px;
     font-family: 'YuGothic','Yu Gothic', sans-serif;
-    padding: 12px 4px 12px 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.show{
+    margin: 0 auto;
+    margin-left: -42.5%;
+    padding: 20px 40px 20px 40px;
+    background-color: white;
+    color: #383838;
     border-radius: 5px;
-    border: none;
-    outline: none;
-    appearance: none;
-    text-align: left;
+    width: 70%;
+    font-size: 200%;
+    position: absolute;
+    text-align: center;
 }
-
-
-
-.image{
-    border: 0px;
-    box-decoration-break: none;
-    height: auto;
-    width: 100%;
-    background-color: #403984;
+.show:hover{
+     background-color: #383838;
     color: white;
 }
-.image:active{
-    background-color: #c49a3d;
+.ex{
+    padding-top: 2%;
+    color: #383838;
+    font-size: 120%;
 }
-.image:hover{
-    background-color: #c49a3d;
-}
-
-/*---------*/
-.experience{
-    border: 0px;
-    box-decoration-break: none;
-    height: auto;
-    width: 100%;
-    background-color: #403984;
-    color: white;
-}
-.experience:active{
-    background-color: #c49a3d;
-}
-.experience:hover{
-    background-color: #c49a3d;
-}
-
-/*---------*/
-.concept{
-    border: 0px;
-    box-decoration-break: none;
-    height: auto;
-    width: 100%;
-    background-color: #403984;
-    color: white;
-}
-.concept:active{
-    background-color: #c49a3d;
-}
-.concept:hover{
-    background-color: #c49a3d;
-}
-
-/*---------*/
-.service{
-    border: 0px;
-    box-decoration-break: none;
-    height: auto;
-    width: 100%;
-    background-color: #403984;
-    color: white;
-}
-.service:active{
-    background-color: #c49a3d;
-}
-
-.service:hover{
-    background-color: #c49a3d;
-}
-
-/*-----------------*/
-.output{
-    margin-top: 0%;
-    margin-left: 70px;
-    width: 90%;
+.caution{
+    margin-top: -4%;
+    padding-bottom: 2%;
+    color: #383838;
+    font-size: 70%;
 }
