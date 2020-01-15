@@ -1,6 +1,7 @@
 /*#container_all{max-width: 600px;}*/
 * {
   -webkit-appearance: none;
+  overflow: hidden;
 }
 
 
