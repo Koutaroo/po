@@ -30,11 +30,12 @@ body{
 
 /*--ボタン--*/
 .select FORM{
-    margin-left: -2.5%;
-    margin-top: 4%;
+    margin-left: -16px;
+    margin-top: 30px;
+    padding: 8px 0;
     position: fixed; 
     float: left;
-    width: 11.5%;
+    width: 91px;
     display: -webkit-flex;
     display: flex;
     -webkit-justify-content: space-around;
@@ -43,19 +44,21 @@ body{
     align-items: flex-start;
     -webkit-flex-direction: column;
     flex-direction: column;
-    height: 34%;
+    height: 240px;
     background: #403984;
+    border-radius: 7px;
 }
 
 .select FORM input{
     float: left;
-    font-size: 78%;
+    font-size: 12.2px;
     font-family: 'YuGothic','Yu Gothic', sans-serif;
-    padding: 12% 0 12% 20%;
-    border-radius: 10%;
+    padding: 12px 4px 12px 20px;
+    border-radius: 5px;
     border: none;
     outline: none;
     appearance: none;
+    text-align: left;
 }
 
 
@@ -127,6 +130,6 @@ body{
 /*-----------------*/
 .output{
     margin-top: 0%;
-    margin-left: 8%;
-    width: 92%;
+    margin-left: 70px;
+    width: 90%;
 }
