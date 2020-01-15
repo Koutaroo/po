@@ -24,7 +24,7 @@ a{
 
 .show{
     margin: 0 auto;
-    margin-left: 0;
+    margin-left: -40%;
     padding: 20px 40px 20px 40px;
     background-color: white;
     color: #383838;
