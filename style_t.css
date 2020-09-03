@@ -1,15 +1,1 @@
-/*#container_all{max-width: 600px;}*/
-* {
-    -webkit-appearance: none;
-    overflow: hidden;
-}
 
-html {
-/*  max-width: 900px;*/
-    margin-left: 1%;
-    border: 0px;
-    padding: 0%;
-/*    margin: auto;*/
-    background-color: #cecece;
-/*    background-size: contain;*/
-}
